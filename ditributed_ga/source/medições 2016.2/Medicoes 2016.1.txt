@@ -1,0 +1,72 @@
+Medições de desempenho GA_MCU
+
+Desempenho geral do GA_MCU
+
+1 variável
+size_pop    precisao   período
+10              8        10.3 ms
+
+10              16       11.3 ms
+10              10       10.53 ms
+20              10       21.7 ms 
+40              10       45.20 ms
+50              10       59.09 ms
+70              10       85.94 ms
+90              10       116.73 ms
+110             10       148.54 ms
+130             10       164.58 ms
+160             10       207.31 ms
+200             10       259.39 ms
+250             10       328.12 ms
+300             10       397.03 ms
+350             10       456.74 ms
+400             10       520.01 ms
+
+
+size_pop       precisão    período 
+70             8             84.23 ms
+70             10            85.43 ms
+70             12            86.64 ms
+70             16            86.84 ms
+
+
+size_pop = 80
+precisao = 10
+N    periodo
+1       99.54 ms
+2       144.17 ms
+3       171.62 ms
+4       217.07 ms
+5       260.70 ms
+6       303.23 ms
+7       348.99 ms
+8       394.36 ms
+9       435.24 ms
+10      477.58 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

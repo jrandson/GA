@@ -1,0 +1,132 @@
+Medições do algoritmo GA distribuído para diferente funções
+Dez, 2016
+
+
+12 bits
+pop = 80
+
+y = -10*e.^(-(x.^2)/2*sigma^2).*cos(0.6*sin(x))
+Tserial = 59.9 ms
+Tparalelo = 34.6 ms;  N = 3
+
+y = y = -5.25*e.^(-(x.^2)/2*sigma^2)
+Tserial = 38.7 ms
+Tparalelo =28.8 ms;  N = 3
+
+
+y = x^2
+Tserial = 31.1 ms
+Tparaleo = 39.9 ms; N=3
+
+y = 5*x
+Tserial = 21.1 ms
+Tparaleo = 45.6 ms; N=3
+
+
+Tempo de transmissão (pop + fit)
+12 bits
+---------------------------------
+pop tempo
+-----------
+40	5.29 ms
+60	7.88 ms
+80	10.6 ms
+120 15.8 ms
+160	21.2 ms
+
+--------------------------------
+Ts = 1.83 ms 
+Tp = 2.41 ms (1) um slave por vez
+Tp = 1.37 ms (2) um único barramento
+-------------------------------
+
+============================================================================================
+pop = 4
+12 bits
+f = x
+Ts = 1.81 ms
+Tp = 1.36 ms
+
+12 bist
+f = x
+pop = 120
+Ts = 45.9 ms
+Tp = 36 ms
+--------------
+
+--------------
+pop = 4
+f = 2*x
+Ts = 1.78 ms
+Tp = 1.32 ms
+
+pop = 120
+Ts = 46.7 ms
+Tp =  35.7 ms
+
+12 bits
+pop = 120
+Ts = 46.7 ms
+Tp = 36.1 ms
+
+12 bits
+Pop = 12
+Ts = 4.73 ms
+Tp = 3.73 ms
+
+12 bits
+pop = 300
+Ts = 116 ms
+Tp = 89.5 ms
+
+-------------
+
+pop = 4
+12 bits
+f = x^2 + 2^x
+Ts = 1.94 ms
+Tp = 1.38 ms
+
+pop = 4
+8 bits
+f = sin(x)
+Ts = 2.10 ms
+Tp = 1.42 ms
+
+pop = 4
+8 bits
+f = sin(x)*cos(x^2)
+Ts = 2.64 ms
+Tp = 1.58 ms
+
+pop = 4
+8 bits
+f = 0.05*e^x
+Ts = 2.84 ms
+Tp = 1.46 ms
+
+pop = 4
+8 bits
+f = sin(e^x)
+Ts = 3.06 ms
+Tp = 1.52 ms
+
+pop = 4
+8 bits
+f = sin(x)+ sqrt(x) + x^2
+Ts = 2.26 ms
+Tp = 1.48 ms
+
+=============================
+2 variáveis
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,137 @@
+﻿Medições de desempenho GA_MCU
+
+crossover, roleta de quatro pontos
+
+Desempenho geral do GA_MCU
+
+1 variável
+size_pop    precisao   período
+10              10       10.53 ms
+20              10       21.7 ms 
+40              10       34.44 ms
+50              10       45.89 ms
+70              10       66.66 ms
+90              10       92.25 ms
+110             10       105.41 ms
+130             10       137.12 ms
+160             10       166.34 ms
+200             10       210.44 ms
+
+
+100 gerações
+10 bits
+N = 1
+size_pop   período
+30          2.53 s
+50          4.58 s
+70          6.68 s 
+90          9.26 s 
+
+size_pop       precisão    período 
+70             8             66.23 ms
+70             10            66.58 ms
+70             12            67.74 ms
+70             16            68.48 ms
+
+
+size_pop = 80
+precisao = 10
+N    periodo
+1       78.41 ms
+2       110.57 ms
+3       126.98 ms
+4       160.07 ms
+5       190.79 ms
+6       223.52 ms
+7       255.91 ms
+8       288.79 ms
+9       319.58 ms
+10      349.20 ms
+
+
+Medição de cada etapa do algoritmo:
+
+N = 1
+size_chr = 10
+size_pop = 30
+
+execução total do GA = 25.24 ms
+
+1.get_new _pop = 14.97 ms	
+	crossover = 8.26  ms
+	mutação = 6.58 ms
+
+2.get_aptidao = 6.52 ms
+3.avalia_pop = 3.99 ms
+
+===============
+
+N = 1
+size_chr = 10
+size_pop = 50
+
+execução total do GA = 45.76 ms
+
+1.get_new _pop = 27.63 ms	
+	crossover = 16.90  ms
+	mutação = 10.77 ms
+
+2.get_aptidao = 10.53 ms
+3.avalia_pop = 3.99 ms
+
+===============
+
+N = 1
+size_chr = 10
+size_pop = 80
+
+execução total do GA = 99.77 ms
+
+1.get_new _pop = 48.73 ms
+	crossover = 31.88 ms
+	mutação = 17.25 ms
+
+2.get_aptidao = 16.79 ms
+3.avalia_pop = 6.96 ms
+
+===============
+
+N = 1
+size_chr = 10
+size_pop = 100
+
+execução total do GA = 131.55 ms
+
+1.get_new _pop = 64.72 ms	
+	crossover = 45.74 ms
+	mutação = 21.37 ms
+
+2.get_aptidao = 23.13 ms
+3.avalia_pop = 9.30 ms
+
+===============
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

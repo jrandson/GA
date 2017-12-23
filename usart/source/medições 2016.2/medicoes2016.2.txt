@@ -1,0 +1,115 @@
+Medições de desempenho GA_MCU Atmega 2560
+
+range de -50 ~ 50 
+Desempenho geral do GA_MCU
+
+
+f(x) = x1 + x2 + x3 +... + xn
+população:120 precisao: 12 bits
+variaveis    período
+1              28.09 ms
+2              32.68 ms
+4              42.26 ms
+6              51.76 ms
+7              76.5 ms
+a partir de 8 variáveis a onda fica irregular
+
+para 10, exibe onda irregular
+f(x) = x
+população 120 1 variável
+precisão    período /2
+4             27.79 ms
+6             27.88 ms
+8             27.88 ms
+10            28.12 ms
+12            28.13 ms
+14            27.96 ms
+
+população precisao: 14 N = 1 (/2)
+população new_population crossover mutação fitness
+
+-------------------------------
+
+f(x) = x
+1 variável precisao: 12 bits
+size_pop    período
+30             7.17  ms
+60             14.02 ms
+90             21.03 ms
+120            27.83 ms
+150            34.83 ms
+ 
+f(x) = x^2, 1 variável, 12 bits
+1 variável 
+size_pop    período
+30           8.55 ms
+60           16.75   ms
+90           25.11   ms
+120          33.34   ms
+150          41.48   ms
+
+f(x) = 2x, 1 variável, 12 bits
+1 variável precisao 16 bits
+size_pop    período
+30           7.58  ms
+60           14.75 ms
+90           22.12 ms
+120          29.26 ms
+150          36.61 ms
+
+f(x) = x+5, 1 variável, 12 bits
+1 variável 
+size_pop    período
+30            7.65   ms
+60            14.83  ms
+90            22.24  ms
+120           29.48  ms
+150           36.85  ms
+
+f(x) = 21.5 + x1*sin(4*pi*x) + x2*sin(20*pi*x2), 1 variável, 12 bits
+2 variáveis
+size_pop    período
+30            19.23  ms
+60            37.64  ms
+90            57.01  ms
+120           73.31  ms
+150           94.75  ms
+
+
+f(x) = d + b*1/d + b*A*C
+d = sqrt((x1 - px)^2 + (x2 - py)^2)
+
+2 variáveis
+size_pop    período
+30            13.66 ms
+60            26.91 ms
+90            20.21 ms
+120           53.41 ms
+150           66.79 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

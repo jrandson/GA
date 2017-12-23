@@ -1,0 +1,7 @@
+
+Lembrar de colocar o arquivo .h na pasta de bibliotecas do arduíno
+
+dar permições para poder acessr a porta /dev/ttyACM0:
+
+sudo usermod -a -G dialout <username>
+sudo chmod a+rw /dev/ttyACM0
